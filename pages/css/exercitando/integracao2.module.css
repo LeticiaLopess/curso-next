@@ -1,0 +1,23 @@
+/* 
+Pelo fato de eu ter escrito o nome do arquivo com ".module" significa que agora eu tenho um css específico para um componente, portanto, não será um css global, que necessitaria estar em  _app.js como uma regra geral e para evitar um erro
+*/
+
+#integracao2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vermelha {
+    color:#f30;
+}
+
+.azul {
+    color:#03a;
+}
+
+.branca {
+    background-color: #444;
+    color:#fff;
+}
