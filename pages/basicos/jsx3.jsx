@@ -5,3 +5,5 @@ export default function jsx3() {
         </div>
     )
 }
+
+/* JSX - JavaScript + React */

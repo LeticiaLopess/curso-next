@@ -7,14 +7,15 @@ export default function repeticao1() {
         'Carlos',
         'Daniel',
         'Laura',
+
     ]
 
-    function renderizarLista() {
+    function renderizarLista() {   
         return listaAprovados.map(function(nome, i) {
             return <li key={i}>{nome}</li>
         })
     }
-
+    
     return (
         <ul>
             {renderizarLista()}
@@ -22,13 +23,18 @@ export default function repeticao1() {
     )
 }
 
+// renderização de elementos e renderização condicional
 
-// function renderizarLista() {
-//     const itens = []
+// cada elemento de uma chave deve ter uma propriedade única
 
-//     for (let i = 0; i < listaAprovados.length; i++) {
-//         itens.push(<li key={i}>{listaAprovados[i]}</li>)
-//     }
+/* function renderizarLista() {
+    const itens = []
 
-//     return itens
-// }
+    for (let i = 0; i < listaAprovados.length; i++) {
+        itens.push (<li key={i}>{listaAprovados[i]}</li>)
+    }
+
+    return itens
+} */
+
+// a função map serve para transformar um elemento em outro (nesse caso, de string [nomes] para li)

@@ -21,3 +21,5 @@ export default class Produto {
         return this.#preco
     }
 }
+
+// serve para
