@@ -1,4 +1,4 @@
-export default function Repeticao1() {
+export default function repeticao1() {
     const listaAprovados = [
         'João',
         'Maria',
@@ -22,6 +22,8 @@ export default function Repeticao1() {
         </ul>
     )
 }
+
+// renderização de elementos e renderização condicional
 
 // cada elemento de uma chave deve ter uma propriedade única
 
