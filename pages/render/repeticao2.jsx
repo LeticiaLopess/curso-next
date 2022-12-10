@@ -19,6 +19,7 @@ export default function repeticao2() {
     }
 
 
+    // tabela 
 
     return (
         <div>
@@ -30,10 +31,15 @@ export default function repeticao2() {
                         <th>Preço</th>
                     </tr>
                 </thead>
-                <tbody>
-                    {renderizarLinhas()}
+                <tbody> 
+                    {renderizarLinhas()} 
                 </tbody>
-            </table>
+            </table> 
         </div>
     )
 }
+
+// transofrmação de uma lista de objetos (de listaProdutos.js)
+
+// tr - table row
+// td - table data

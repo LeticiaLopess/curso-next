@@ -9,7 +9,7 @@ export default class Produto {
         this.#preco = preco
     }
 
-    get id() {
+    get id() { // atributo
         return this.#id
     }
     
@@ -22,4 +22,12 @@ export default class Produto {
     }
 }
 
-// serve para
+// método get - acessa atributos
+// getId()
+
+/* this:
+
+ * this é usado dentro de uma função (digamos função “A”) e ele contém o valor do objeto que invoca a função A.
+
+ * no contexto de execução global (fora de qualquer função), this refere-se ao objeto global, seja em modo estrito ou não
+ */

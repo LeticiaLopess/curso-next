@@ -6,3 +6,7 @@ export default [
     new Produto(3, "Computador Gamer", 6949),
     new Produto(4, "Samsung S20+", 2800),
 ]
+
+// definição de produtos referentes à função em produto.js
+
+// evitar o mesmo uso de id pois a chave deve ser única
