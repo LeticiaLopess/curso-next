@@ -11,3 +11,5 @@ export default function Lista(props) {
         </div>
     )
 }
+
+// listStyle: "none" - tira as bolinhas de tópicos da lista

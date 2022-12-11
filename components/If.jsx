@@ -5,3 +5,5 @@ export default function If(props) {
         return null
     }
 }
+
+// props.children - filhos que estão dentro do componente If
