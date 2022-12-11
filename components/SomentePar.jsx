@@ -15,3 +15,5 @@ export default function SomentePar(props) {
     //     return null
     // }
 }
+
+// renderização condicional dentro de um trecho de jsx

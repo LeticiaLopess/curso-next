@@ -16,3 +16,5 @@ export default function condicional1() {
         </div>
     )
 }
+
+// renderização condicional
