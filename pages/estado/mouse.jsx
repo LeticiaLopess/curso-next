@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 export default function mouse () {
-    const [x, asetX] = useState(0) // escrito em uma linha
+    const [x, setX] = useState(0) // escrito em uma linha
 
     const arrayY = useState(0)     // escrito em mais linhas
     let y = arrayY[0]
