@@ -10,3 +10,7 @@ export default function Pai(props) {
         </div>
     )
 }
+
+// {...props} - atributos de pai passa para os filhos
+
+// a comunicação direta é feita via props
