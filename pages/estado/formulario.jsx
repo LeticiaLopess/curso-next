@@ -4,7 +4,7 @@ export default function formulario() {
     const [valor, setValor] = useState("")
 
     function alterarInput() {
-        setValor(valor + "!")
+        setValor(valor + "!") // concatenação
     }
 
     return (
@@ -19,4 +19,14 @@ export default function formulario() {
         </div>
     )
 }
+
+// componente controlado - formulários: vincula um input com um estado 
+
+// componente não controlado - componente sem armazenamento, como por exemplo um input de texto solto
+
+/* 
+Se eu determinar um valor inicial no input de texto, eu não conseguirei mais escrever, o valor inicial estará dentro da caixa
+
+use o undefined e não o null
+*/
 
