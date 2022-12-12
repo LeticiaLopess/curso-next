@@ -30,7 +30,7 @@ export default function mouse () {
             <span>Eixo Y: {y}</span>
         </div>
     )
-    }
+    } 
 
 
 // clientX e clientY - propriedades que aparecem no console no inspecionar
