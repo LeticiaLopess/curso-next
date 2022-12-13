@@ -1,3 +1,5 @@
+// diferentes formas de criar componentes funcionais e a possibilidade de haver vários componentes diferentes em um arquivo
+
 export function Comp1() {
     return (
         <div>
