@@ -1,5 +1,5 @@
 import { useState } from "react"
-import ContadorDisplay from "../../components/ContadorDisplay"
+import NumberDisplay from "../../components/NumberDisplay"
 
 export default function contador() {
 
@@ -8,7 +8,7 @@ export default function contador() {
     // const inc = () => setNumero(numero + 1) [arrow function]: está diretamente no onClick
     
     function dec() {
-        setNumero(numero - 1)
+        setNumero((prevState) => prevState - 1)
     }
 
     return (
@@ -19,15 +19,16 @@ export default function contador() {
             alignItems: "center",
         }}>
             <h1>Contador</h1>
-            <ContadorDisplay numero={numero}/>  
+            <NumberDisplay numero={numero}/>  
 
             <div>
             <button onClick={dec} style={{width: 40, height: 40}}> - </button>
-            <button onClick={() => setNumero(numero + 1)} style={{width: 40, height: 40}}> + </button>
+            <button onClick={() => setNumero((prevState) => prevState + 1)} style={{width: 40, height: 40}}> + </button>
             </div>
         </div>
     )
 }
+
 
 // trabalhar com o evento chamando funçao
 

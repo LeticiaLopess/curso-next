@@ -1,18 +1,18 @@
-export default function NumeroDisplay(props) {
+export default function NumberDisplay (props) {
     return (
         <div style={{
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            height: "50px",
-            width: "50px",
-            borderRadius: "25px",
+            height: "80px",
+            width: "80px",
+            borderRadius: "40px",
             backgroundColor: "#222",
             color: "#fff",
-            fontSize: "2rem",
-            margin: "20px"
+            fontSize: "3rem",
+            margin: "35px"
         }}>
-            {props.numero}
+                {props.numero}
         </div>
     )
 }
