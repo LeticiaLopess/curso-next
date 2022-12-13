@@ -2,12 +2,17 @@ import { Component } from "react";
 
 export default class Contador extends Component {
     state = {
-        numero: this.props.valorInicial ?? 0,
+        numero: this.props.valorInicial ?? 0, // começara com o valor inicial, caso não seja passado (??) será 0
         passo: this.props.passo ?? 1
     }
 
-    inc = () => {
-        this.setState({
+
+    /* 
+    <h2> {thus.state.numero} </h2> acessando o state, estado interno
+    */
+
+    inc = () => { // incremento. arrow function para evitar erro com o setState
+        this.setState({ // passa o que quer modificar
             numero: this.state.numero + this.state.passo
         })
     }

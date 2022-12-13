@@ -3,10 +3,11 @@ import Contador from "../../components/Contador"
 
 export default class ContadorPage extends Component {
 
-    render() {
-        return (
+    render () {
+        return(
             <>
-                <Contador valorInicial={100} passo={37} />
+                <Contador valorInicial={100} />
+                <Contador valorInicial={100} />
             </>
         )
     }
