@@ -3,8 +3,9 @@ import Pessoa from "../../components/Pessoa";
 export default function exemploTS() {
     return (
         <div>
-            <Pessoa nome="João" idade={30} />
-            <Pessoa nome="Maria" />
+            <Pessoa nome="Pedro" idade={25} />
+            <Pessoa nome="Joana" />
         </div>
     )
 }
+
